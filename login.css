@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/bg.jpg);
+    background-position: top;
+    background-size: cover;
+    font-family: 'Tilt Neon', cursive;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding-top: 15px;
+  }
+  nav ul{
+    float: right;
+    padding-right: 60px;
+  }
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+  }
+
+  nav ul li button{
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 10px;
+    border-color: #709eff;
+    border-style: solid;
+  }
+
+  nav ul li button:hover{
+    border-width: 2px;
+    border-color: black;
+    background-color: #709eff;
+    transition: 0.6s all;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    font-size:x-large;
+  }
+
+.loginbox {
+    width: 600px;
+    height: 600px;
+    background: transparent;
+    color: #0b4bd6;
+    top: 52%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 40px;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #0b4bd6;
+    border-width: 7px;
+    box-shadow: 8px 8px 15px #000;
+    backdrop-filter: blur(50px);
+}
+
+.avatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border-width: 6px;
+    border-style: solid;
+    border-color: #2a60d2;
+    position: absolute;
+    top: -10%;
+    left: calc(50% - 50px);
+}
+
+.avatar:hover{
+    cursor: pointer;
+}
+
+h2{
+    margin: 0;
+    padding: 0 0 40px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 22px;
+    color: #000;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.loginbox input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 2px solid #2a60d2;
+    background: transparent;
+    outline: none;
+    height: 35px;
+    font-style: italic;
+    font-size: 15px;
+    color: #004786;
+    letter-spacing: 1px;
+}
+
+.loginbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 60px;
+    background: #ffffff;
+    color: #0b4bd6;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: 0.5s ease-in-out;
+}
+
+.loginbox input[type="submit"]:hover {
+    cursor: pointer;
+    color: #000;
+    background: #709eff;
+    border-style:solid;
+    border-width: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+.loginbox a{
+    text-decoration: none;
+    letter-spacing: 0.7px;
+    font-size: 18px;
+    line-height: 10px;
+    color: #2a60d2;
+    padding-left: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.loginbox a:hover{
+    color: #000;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+}
